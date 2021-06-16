@@ -10,6 +10,8 @@ import Hero from './Hero';
 
 import firebase from 'firebase';
 
+import 'react-app-polyfill/stable';
+
 const App = () => {
 
     const [user, setUser] = useState("");

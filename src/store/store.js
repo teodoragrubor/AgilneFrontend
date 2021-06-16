@@ -15,4 +15,14 @@ const store = createStore(
 
 sagaMiddleware.run(watchUsers);
 
+/*const initialState = {}
+const middleWare =[createSagaMiddleware]
+
+let store ;
+
+store = createStore(appReducer,
+    initialState,
+    compose(applyMiddleware(...middleWare)))*/
+
+
 export default store;
